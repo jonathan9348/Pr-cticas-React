@@ -1,5 +1,10 @@
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import Componente from "./components/Componente";
+import Propiedades from "./components/Propiedades";
+
+
 
 function App() {
   return (
@@ -17,6 +22,17 @@ function App() {
         >
           Learn React
         </a>
+      <section>
+        <Componente  msg ="Hola soy un componente funcional"/>
+        <hr/>
+        <Propiedades 
+        cadena = "Esto es una cadena de texto" 
+        numero = {20}
+        booleano = {true}
+        arreglo = {[1, 2, 3]}
+        objeto = {{nombre: "Jona", email: "jonathan.moran9348@gmail.com"}}
+        funcion = {(num) => num*2}/>
+      </section>
       </header>
     </div>
   );
