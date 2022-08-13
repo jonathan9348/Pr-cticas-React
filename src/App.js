@@ -4,6 +4,7 @@ import './App.css';
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
 
 
 
@@ -34,6 +35,8 @@ function App() {
         objeto = {{nombre: "Jona", email: "jonathan.moran9348@gmail.com"}}
         funcion = {(num) => num*2}/>
         <Estado />
+        <hr/>
+        <RenderizadoCondicional/>
       </section>
       </header>
     </div>
