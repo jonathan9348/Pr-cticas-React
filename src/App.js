@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
+import Estado from "./components/Estado";
 
 
 
@@ -32,6 +33,7 @@ function App() {
         arreglo = {[1, 2, 3]}
         objeto = {{nombre: "Jona", email: "jonathan.moran9348@gmail.com"}}
         funcion = {(num) => num*2}/>
+        <Estado />
       </section>
       </header>
     </div>
