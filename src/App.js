@@ -7,6 +7,8 @@ import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
 import Eventos from "./components/Eventos";
+import ComunicacionComponentes from "./components/ComunicacionComponentes";
+import CicloVida from "./components/CicloVida";
 
 
 
@@ -43,6 +45,10 @@ function App() {
         <RenderizadoElementos/>
         <hr/>
         <Eventos/>
+        <hr/>
+        <ComunicacionComponentes/>
+        <hr/>
+        <CicloVida/>
       </section>
       </header>
     </div>
