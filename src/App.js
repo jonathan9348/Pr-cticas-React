@@ -9,6 +9,7 @@ import RenderizadoElementos from "./components/RenderizadoElementos";
 import Eventos from "./components/Eventos";
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
 
 
 
@@ -49,6 +50,8 @@ function App() {
         <ComunicacionComponentes/>
         <hr/>
         <CicloVida/>
+        <hr/>
+        <AjaxApis/>
       </section>
       </header>
     </div>
